@@ -110,7 +110,7 @@ public class DepositsPage {
     }
 
     public void checkAmountTotalHasNotValue(String text) {
-        amountTotal.shouldHave(text(text));
+        amountTotal.shouldNot(text(text));
     }
 
     public void checkContractInterestRateTotal(String text) {
